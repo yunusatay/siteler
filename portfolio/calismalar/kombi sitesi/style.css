@@ -1,0 +1,297 @@
+html {
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+header {
+    height: 80rem;
+}
+
+.bgimage {
+    position: absolute;
+    background-image: url("images/bgimage.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80rem;
+    width: 99%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.bolum1 {
+    font-size: 35px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15rem;
+}
+
+.servis {
+    float: right;
+    margin-right: 15rem;
+    background-color: aqua;
+    font-size: 15px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+.servis:hover {
+    transition: all 2s;
+    color: black;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.orta {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15rem;
+}
+
+.yazi {
+    font-size: 23px;
+    text-align: center;
+}
+
+.iletişim {
+    display: inline-block;
+    padding: 10px 24px;
+    color: white;
+    background-color: aqua;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.iletişim:hover {
+    transition: all 2s;
+    color: black;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.tikla {
+    display: inline-block;
+    padding: 10px 24px;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.tikla:hover {
+    transition: all 2s;
+    color: black;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.hakkimizda {
+    font-size: 40px;
+    color: blue;
+    margin-left: 20rem;
+    margin-top: 14rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+
+
+}
+
+.p-yazi {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    float: left;
+    padding: 15px 20px;
+}
+
+.foto1 {
+    float: right;
+    width: 500px;
+    height: auto;
+
+}
+
+.servislerimiz {
+    width: 891px;
+    height: auto;
+}
+
+.hakkimizdaa {
+    font-size: 40px;
+    color: blue;
+    margin-left: 120rem;
+    margin-top: 14rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+.col {
+    float: left;
+    padding: 1rem;
+}
+
+.portfolio-item {
+    height: 600px;
+    background-color: blue;
+    margin-left: 20rem;
+    border-radius: 13px;
+    width: auto;
+}
+
+.foto {
+    position: relative;
+    display: block;
+    width: 403px;
+    height: auto;
+}
+
+.sservis {
+    float: right;
+    margin-right: 15rem;
+    background-color: crimson;
+    font-size: 15px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+.sservis:hover {
+    transition: all 2s;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.buzdolabi {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.buzdolabi-p {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-style: inherit;
+    color: white;
+    padding: 2rem;
+}
+.boyut{
+    margin-top: 200px;
+}
+.servis-merkezi{
+    margin-left: 101rem;
+    font-size: 40px;
+    font-family: arial;
+}
+.servis-merkezi-sayfa{
+    width:1000px;
+    margin-bottom: 10rem;
+}
+.merkez{
+    height: 600px;
+    width: auto;
+    margin-top: 800px;
+}
+.servis-hizmeti{
+    margin-top: 5rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:20rem;
+    text-align: justify;
+    color: darkblue;
+}
+.birinci-yazi{
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20rem;
+}
+.biri{
+    border: solid 100px;
+    border-radius: 130px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    margin-left: 20rem;
+}
+.merkezler{width: 1500px; height: 1000px;}
+.bir-yazi{
+    
+    font-size: 25px;
+    margin-left: 100rem;
+}
+.h2{
+    font-size: 30px;
+    margin-left: 59rem;
+}
+.iletisim{
+    width: 670px;
+    height: 670px;
+}
+.bgiletisim{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+.iletisim-h2{
+    color:darkred;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.servis-p{
+    color: gray;
+    text-align:  center;
+    font-size: 40px;
+}
+.kutu{
+    background-color: gray;
+    width: 500px;
+    padding: 30px;
+    border: 22px solid white;
+    padding: 50px;
+    height: 150px;
+    margin-left: 15rem;
+    float: left;
+}
+.email-p{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    text-decoration: dashed;
+}
+.email-h{
+    color: darkred  ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.kutu2{
+    background-color: gray;
+    width: 500px;
+    padding: 30px;
+    border: 22px solid white;
+    padding: 50px;
+    height: 150px;
+    margin-left: 15rem;
+    float: right;
+    margin-right: 20rem;
+}

@@ -1,0 +1,353 @@
+html {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header1 {
+    background-color: #143746;
+    height: 3.2rem;
+
+}
+
+.header1-telefon {
+    padding: 10px 100px;
+
+}
+
+.header1 a {
+    color: white;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header1 i {
+    color: white;
+    padding: 5px;
+}
+
+.header1-sagtaraf {
+    float: right;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.header {
+    height: 8rem;
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    padding-left: 15rem;
+}
+
+ul li {
+    display: inline;
+    padding: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: inline;
+    float: right;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+ul li a {
+    color: #333333;
+}
+
+ul li a:hover {
+    color: #0097d4
+}
+
+.halibg {
+    background-image: url(haliifoto.jpg);
+    background-size: 400;
+    height: 55rem;
+}
+
+.div2 {
+    height: 35rem;
+}
+
+.divyazi {
+    padding: 10px 30px;
+    background-color: #0097d4;
+    margin-top: 150px;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: darkblue;
+    text-shadow: 10px 1px 10px;
+    margin-left: 300px;
+
+}
+
+.div-h1 {
+    color: black;
+    margin-left: 300px;
+    font-size: 41px;
+    position: absolute;
+}
+
+.div-p {
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #666666;
+    margin-left: 300px;
+    letter-spacing: normal;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    vertical-align: baseline;
+    position: absolute;
+    margin-top: 5rem;
+}
+
+.right-click {
+    margin-left: 300px;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 350px;
+
+}
+
+.right-click i {
+    padding: 10px;
+
+}
+
+.right-clickk {
+    margin-left: 300px;
+    color: black;
+    padding: 10px;
+    position: absolute;
+
+}
+
+.right-clickk i {
+    padding: 10px;
+
+}
+
+.foto1 {
+    display: inline;
+    margin-left: 15rem;
+    position: absolute;
+}
+
+.dahafazla {
+    background-color: #0097d4;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 320px;
+}
+
+button a {
+    color: white;
+}
+
+.dahafazla:hover {
+    background-color: darkblue;
+    transition: all 2s;
+}
+
+.div {
+    background-color: #143746;
+    height: 45rem;
+
+}
+.yari{
+    height: 10rem;
+}
+.div-yazii {
+    padding: 10px;
+    background-color: #0097d4;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 10px 1px 10px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.kapatma{
+    color: #143746;
+}
+.div-h11 {
+    color: white;
+    margin-left: 300px;
+    font-size: 41px;
+    
+}
+.beyazkutu{
+    margin-left: 300px;
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    display: inline-block;
+}
+.iclas{
+    font-size: 40px;
+    padding: 10px;
+}
+.pclas{
+    font-size: 18px;
+}
+.ibuton{
+    padding: 15px 15px;
+    border-radius: 30px;
+    background-color: #0097d4;
+    margin-top: 70px;
+    width: 15px;
+    height: 15px;
+}
+.ibuton:hover{
+    background-color: darkblue;
+    transition: all 2s;
+    color: white;
+}
+.beyazkutuu{
+    margin-left: 50px;
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    display: inline-block;
+}
+.ibutonn{
+    padding: 15px 15px;
+    border-radius: 30px;
+    background-color: #0097d4;
+    margin-top: 50px;
+    width: 15px;
+    height: 15px;
+}
+.ibutonn:hover{
+    background-color: darkblue;
+    transition: all 2s;
+    color: white;
+}
+.beyazkutuuu{
+    margin-left: 50px;
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    display: inline-block;
+}
+.divsondan{
+    height: 90rem;
+}
+.divyaziii{
+    padding: 10px 30px;
+    background-color: #0097d4;
+    margin-left: 300px;
+    margin-top: 150px;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: darkblue;
+    text-shadow: 10px 1px 10px;
+}
+.fotolar{
+    margin-left: 300px;
+    margin-top: 100px;
+    display: inline-block;
+    
+}
+.divimg img{
+    margin: 20px;
+}
+.wp{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+.insta{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+}
+.halihesaplamabg{
+    background-color: #143746;
+    height: 40rem;
+}
+.halihesapstrong{
+    margin-left: 350px;
+    color: white;
+    font-size: 18px;
+}
+.halii{
+    margin-top: 30px;
+    margin-left: 350px;
+    color: white;
+    
+    font-size: 20px;
+}
+.input1{
+    font-size: 20px;
+}
+.input2{
+
+    display: inline-block;
+    font-size: 20px;
+}
+footer{
+    background-color: #0c2129;
+    height: 3rem;
+    color: #cccccc;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+.halibuton{
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 10px 30px;
+    margin: 20px;
+}
+@media  screen and (max-width:1600px){
+    .logo{
+        padding-left: 5rem;
+    }
+    .beyazkutu{
+        margin-left: 150px;
+    }
+    .fotolar{
+        margin-left: 100px;
+    }
+}
+    

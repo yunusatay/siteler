@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+/* header */
+header {
+    width: 100%;
+    background-color: black;
+    position: relative;
+
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-content ul {
+    display: flex;
+    padding: 2rem;
+}
+
+.navbar-content ul li {
+    list-style: none;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    font-size: 20px;
+
+}
+
+.navbar-content ul a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 1.5s;
+}
+
+.navbar-content ul a:hover {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+}
+
+
+
+/* header bitiş */
+
+/* anasayfa */
+
+.anasayfa {
+    width: 100%;
+    height: 610px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.anasayfa-content img {
+    margin-left: 2rem;
+    width: 400px;
+    height: 400px;
+}
+
+.anasayfa-content h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.anasayfa-content hr {
+    margin-top: 1rem;
+    border-bottom: 3px solid white;
+}
+
+.anasayfa-content p {
+    font-size: 25px;
+    color: white;
+    margin-top: 1rem;
+    font-family: cursive;
+}
+
+
+
+/* anasayfa bitiş */
+
+/* hakkımda */
+
+.hakkimda {
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.hakkimda-content {
+    display: flex;
+}
+
+.hakkimda-content .content-p {
+
+    border: solid 2px black;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    width: 250px;
+    height: 50px;
+    text-shadow: 10px 1px 10px;
+}
+
+.hakkimda-content .box {
+    width: 450px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.hakkimda-content .box p {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.hakkimda-content .box img {
+    margin-left: 70px;
+    width: 300px;
+    height: 250px;
+}
+
+
+
+/* hakkımda bitiş */
+
+/* çalışmalar */
+
+.calismalar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #262626;
+    margin-top: 3rem;
+}
+
+.calismalar-content {
+    display: block;
+    color: white;
+}
+
+.calismalar-content p {
+    margin: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calismalar-content h2 {
+    margin: 30px;
+    text-shadow: 10px 1px 10px;
+}
+
+.calismalar-content h2 i {
+    padding: 5px
+}
+
+.link {
+    color: white;
+
+}
+
+.link a {
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.hali_li {
+
+    font-style: italic;
+}
+
+.link i {
+    padding: 20px;
+}
+
+/* çalışmalar bitiş */
+
+/* sertifika */
+
+.sertifika {
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+
+.sertifika-content {
+    display: block;
+    color: white;
+}
+
+.sertifika-content h2 {
+
+    text-shadow: 10px 1px 10px;
+    margin: 30px;
+}
+
+.sertifika-content i {
+    padding: 5px;
+}
+
+.sertifika-content p {
+    margin: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sertifikalar img {
+    margin: 30px;
+    width: 240px;
+    height: 250px;
+}
+
+/* sertifika bitiş */
+
+/* iletisim */
+
+.iletisim {
+    width: 550px;
+    margin: 0 auto;
+    background: #262626;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.inputlar {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+legend {
+    color: white;
+    font-size: 30px;
+}
+
+.inputlar,
+.input,
+.mesaj,
+textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    color: whitesmoke;
+    width: 100%;
+}
+
+button {
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+i {
+    padding: 5px;
+}
+
+/* iletisim bitiş */
+
+/* footer */
+
+footer {
+    background-color: black;
+    width: 100%;
+    margin-top: 10px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.left {
+   
+    width: 33.3%;
+    text-align: center;
+    border-right: 4px solid whitesmoke;
+}
+
+.right {
+    
+    width: 33.3%;
+    text-align: center;
+    border-right: 4px solid whitesmoke;
+}
+
+.right ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.footer-content i,
+.footer-content a {
+    color: white;
+    margin: 10px;
+}
+
+.footer-content ul {
+    padding: 40px;
+}
+
+.footer-content li {
+    padding: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content h3 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.orta {
+    
+    width: 33.3%;
+    text-align: justify
+}
+
+.ikon {
+    width: 40px;
+    height: 40px;
+}
+
+.orta ul li a {
+    text-decoration: none;
+}
+
+span {
+    margin-top: 10px;
+    position: absolute;
+    text-align: justify;
+    margin-left: 0.50rem;
+    color: whitesmoke;
+}
+.haklar{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+.haklar a{
+    color: whitesmoke;
+}
+
+/* footer bitiş */
+
+
+/* fixed */
+.fixed{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.821);
+    bottom: 30px;
+    left: 20px;
+}
+.fixed img{
+    width: 30px;
+}
+/* fixed bitiş */
+
+
+
+
+/* responsive */
+
+@media screen and (max-width:1020px) {
+    .navbar-content ul {
+        display: block;
+
+    }
+
+    header {
+        position: relative;
+    }
+
+    .navbar-content ul li {
+        font-size: 15px;
+    }
+
+    .navbar-content {
+        display: block;
+        text-align: center;
+    }
+
+    .logo {
+        margin-left: 4rem;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .anasayfa-content {
+
+        margin-left: 4rem;
+
+    }
+
+    .anasayfa img {
+        margin-right: 5rem;
+        width: 305px;
+        text-align: center;
+    }
+    .anasayfa hr{
+        display: none;
+    }
+    .anasayfa-content h1 {
+        font-size: 25px;
+    }
+
+    .anasayfa-content p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .anasayfa hr {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1511px) {
+    .hakkimda {
+        display: block;
+    }
+
+    .hakkimda-content {
+        display: block;
+
+
+    }
+
+    .hakkimda-content .box {
+        max-width: 100%;
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .hakkimda-content .box img {
+        width: 70%;
+        height: 250px;
+    }
+}
+@media screen and (max-width:600px) {
+    .iletisim{
+        max-width: 100%;
+    }
+   
+
+}
+@media screen and (max-width:1000px) {
+    .footer-content,
+    footer
+    {
+        display: block;
+    }
+    .left,.right,.orta{
+        width: 50%;
+        display: flex;
+        border: none;
+        text-align: justify;
+    }
+}
+/* responsive bitiş */

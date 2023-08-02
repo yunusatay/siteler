@@ -1,0 +1,268 @@
+html, footer {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    height: 43rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.div1-1 {
+    margin-top: 18rem;
+    margin-left: 26rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.div1-h1 {
+    font-size: 55px;
+}
+
+.div1-p1 {
+    font-size: 22px;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #ff5126;
+    color: white;
+    border: solid #ff5126;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1-foto1 {
+    float: right;
+    margin-right: 28rem;
+    position: relative;
+    width: 600px;
+    height: 720px;
+    margin-top: 5rem;
+    z-index: -2;
+}
+
+.kutu {
+    width: 480px;
+    height: 420px;
+    position: absolute;
+    z-index: -3;
+    background-color: #ff5126;
+    margin-left: 63rem;
+    margin-top: 3rem;
+}
+
+.foto2 {
+    width: 400px;
+    height: 400px;
+    margin-left: 34rem;
+    position: absolute;
+}
+
+.div2 {
+    height: 75rem;
+}
+
+.grikutu {
+    background-color: #f2f2f2;
+    width: 625px;
+    height: 1000px;
+    position: absolute;
+    z-index: -2;
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+
+.grikutu-h {
+    margin-top: 27rem;
+    font-size: 40px;
+    margin-left: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grikutu-p {
+    column-count: 2;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: italic;
+    margin: 20px;
+    padding: 4px;
+}
+
+.buton-gri {
+    padding: 10px 30px;
+    background-color: #ff5126;
+    color: white;
+    border: solid #ff5126;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20rem;
+}
+
+.sağtaraf {
+
+    position: absolute;
+}
+
+.sağ-p {
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    font-family: arial;
+    column-count: 1;
+    float: right;
+    margin-left: 65rem;
+    margin-top: 10rem;
+    border-left: 4px solid #ff5126;
+    position: absolute;
+}
+
+.sağ-resim {
+    margin-left: 60rem;
+    margin-top: 30rem;
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.resim4 {
+    float: left;
+    margin-left: 27rem;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-top: 5rem;
+    z-index: -2;
+}
+
+.ortabolum {
+    height: 42rem;
+}
+
+.turuncukutu {
+    width: 625px;
+    height: 500px;
+    position: absolute;
+    z-index: -3;
+    background-color: #ff5126;
+    margin-left: 20rem;
+    margin-top: 7rem;
+}
+
+.orta-sağ {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    position: relative;
+    margin-top: 10rem;
+    margin-right: 38rem;
+}
+.orta-sağ-p{
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 60rem;
+    position: absolute;
+    margin-top: 15rem;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.buton-orta{
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 25rem;
+}
+.div-alt1{
+    height: 40rem;
+}
+.alt1-p1{
+    font-family: arial;
+    margin-left: 25rem;
+    padding: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border-left: 4px solid #ff5126;
+    position: absolute;
+}
+.alt-p2{
+    font-family: verdana;
+    font-size: 17px;
+    margin-right: 15rem;
+    float: right;
+}
+.alt2{
+    height: 42rem;
+}
+.resim5{
+    width: 350px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 25rem;
+    position: absolute;
+    
+}
+.h2-alt2{
+    float: right;
+    position: relative;
+    margin-top: 11rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-right: 50rem;
+}
+.alt2-p{
+    position: absolute;
+    margin-top: 25rem;
+    margin-left: 50rem;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+}
+.alt2-b{
+    margin-top: 35rem;
+    margin-left: 55rem;
+    position: absolute;
+}
+.iframe{
+    margin-left: 30rem;
+    height: 40rem;
+}
+.son{
+    height: 40rem;
+}
+.son-h{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 13rem;
+    position: absolute;
+    
+}
+.son{
+    column-count: 2;
+    font-size: 20px;
+    margin-left: 13rem;
+    margin-top:8rem;
+}
+.resim6{
+    height: 500px;
+    width: 500px;
+    float: right;
+    position: relative;
+    margin-right:70rem;
+}
+footer{
+    background-color: #333333;
+    height: 6rem;
+    padding: 0;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+footer p a{
+    color: #ffb9a8;
+}
